@@ -41,7 +41,6 @@ La comunicación podrá utilizarse para:
 * Confirmar la recolección o entrega de un objeto.
 * Coordinar movimientos simultáneos.
 
-Los robots también podrán recibir instrucciones desde una computadora central, siempre que estas sean generadas y transmitidas automáticamente.
 
 ### Identificación mediante visión global
 
