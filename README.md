@@ -1,5 +1,4 @@
-<img src="images/robot.png" alt="Robot del proyecto" width="500">
-
+<img src="VisionRover.png" alt="Robot del proyecto" width="500">
 
 ## Vision Rover Challenge
 
