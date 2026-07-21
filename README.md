@@ -1,3 +1,6 @@
+<img src="images/robot.png" alt="Robot del proyecto" width="500">
+
+
 ## Vision Rover Challenge
 
 El **Vision Rover Challenge** es un reto de robótica colaborativa basado en visión por computadora global.
