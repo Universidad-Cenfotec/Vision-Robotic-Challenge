@@ -13,7 +13,7 @@ No se permite:
 * Utilizar otra tarjeta de desarrollo como controlador principal.
 * Reemplazar completamente la plataforma por otro robot comercial o construido desde cero.
 
-Sí se permite modificar el código, agregar sensores, incorporar módulos auxiliares y construir mecanismos físicos conectados a la plataforma original.
+Solamente se permite modificar el código.
 
 ### Capacidades de movimiento
 
@@ -45,7 +45,7 @@ Los robots también podrán recibir instrucciones desde una computadora central,
 
 ### Identificación mediante visión global
 
-Cada rover deberá incorporar un marcador visual que permita al sistema de visión global determinar:
+Cada rover contará un marcador visual que permita al sistema de visión global determinar:
 
 * La identidad del robot.
 * Su posición dentro de la superficie.
@@ -53,57 +53,22 @@ Cada rover deberá incorporar un marcador visual que permita al sistema de visi�
 * Su trayectoria.
 * Su cercanía a obstáculos, cubos y otros robots.
 
-Los marcadores podrán utilizar colores, patrones geométricos, códigos ArUco u otro sistema de identificación visual autorizado por la organización.
-
 ### Sistema de recolección
 
-Los equipos podrán diseñar o modificar mecanismos simples para manipular los objetos cúbicos.
-
-Entre los mecanismos permitidos se encuentran:
-
-* Palas.
-* Empujadores.
-* Pinzas.
-* Brazos simples.
-* Guías laterales.
-* Compartimentos de transporte.
-* Mecanismos accionados mediante microservos.
-
-El mecanismo deberá ser de bajo costo, seguro y compatible con las dimensiones y capacidades del robot base.
+El rover cuenta con dos paletas laterales que permiten arrastrar y mover los objetos lateralmente
 
 ### Sensores y componentes adicionales
 
-Se permitirá agregar componentes que complementen la información proporcionada por la cámara global, incluyendo:
+El robot cuenta con:
 
 * Sensores ultrasónicos.
 * Sensores infrarrojos.
-* Sensores de distancia.
 * Sensores de color.
-* Encoders.
-* Microservos.
-* Reguladores de voltaje.
-* Indicadores luminosos.
-* Soportes y piezas impresas en 3D.
-* Cableado, conectores y módulos auxiliares.
-
-Los componentes adicionales no podrán sustituir el sistema principal de control del robot.
+* Acelerómetro y giroscopio
 
 ### Procesamiento externo
 
-La percepción global y la planificación podrán ejecutarse en una computadora externa conectada a la cámara superior.
-
-Esta computadora podrá:
-
-* Procesar las imágenes de la superficie.
-* Detectar los robots y objetos.
-* Estimar posiciones y orientaciones.
-* Construir un mapa del entorno.
-* Calcular rutas.
-* Asignar tareas a cada robot.
-* Transmitir comandos de movimiento.
-* Verificar y corregir las trayectorias durante la ejecución.
-
-La computadora externa funcionará como centro de coordinación, pero los movimientos deberán ejecutarse sin intervención humana directa.
+La universida creará el sistema de visión por computadora y publicará los detalles en este repositorio. Los participantes utilizarán este sistema y este no puede ser modificado.
 
 ### Autonomía
 
@@ -119,12 +84,6 @@ No se permitirá:
 
 Antes de la competencia se permitirá realizar procesos de calibración, verificación de comunicación y ajuste del sistema de visión.
 
-### Restricción de modificaciones
-
-Las modificaciones físicas y electrónicas realizadas sobre cada robot no podrán superar un costo total de **US$50 por robot**.
-
-Esta restricción busca mantener condiciones equivalentes entre los equipos y favorecer soluciones basadas en diseño mecánico, programación, visión por computadora y coordinación algorítmica, en lugar de depender de componentes especializados de alto costo.
-
 ## Entrega de robots y materiales
 
 La organización entregará a cada equipo participante, **sin costo**, los robots y los materiales base necesarios para desarrollar el reto.
@@ -132,29 +91,17 @@ La organización entregará a cada equipo participante, **sin costo**, los robot
 El kit podrá incluir:
 
 * Dos robots tipo rover basados en la plataforma Sumobot.
-* Tarjetas electrónicas y microcontroladores.
-* Motores y sistema de locomoción.
-* Baterías o sistemas de alimentación compatibles.
-* Marcadores para identificación visual.
-* Objetos cúbicos utilizados en las pruebas.
-* Componentes mecánicos y electrónicos básicos.
-* Materiales para la construcción de mecanismos de recolección.
-* Acceso al espacio de prueba y al sistema de visión global.
-* Documentación técnica y ejemplos iniciales de programación.
+* Cámara web
+* Superficie de navegación
 
 Los equipos no deberán pagar por la inscripción, los robots ni los materiales oficiales entregados para participar.
-
-Cualquier componente adicional que un equipo desee incorporar deberá cumplir las reglas técnicas, el límite de costo y los criterios de seguridad establecidos por la organización.
 
 ## Responsabilidad de los equipos
 
 Cada equipo será responsable de:
 
 * Programar los dos robots.
-* Desarrollar el sistema de visión y navegación.
 * Diseñar la estrategia de coordinación.
-* Construir o adaptar el mecanismo de recolección.
-* Documentar las modificaciones realizadas.
 * Mantener un registro del costo de los componentes adicionales.
 * Entregar el código fuente y la documentación técnica.
 * Presentar una demostración autónoma y funcional.
