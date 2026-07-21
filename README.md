@@ -1,6 +1,6 @@
-## Vision Robotic Challenge
+## Vision Rover Challenge
 
-El **Vision Robotic Challenge** es un reto de robótica colaborativa basado en visión por computadora global.
+El **Vision Rover Challenge** es un reto de robótica colaborativa basado en visión por computadora global.
 
 Dos rovers deben comunicarse y coordinar sus movimientos para localizar y transportar objetos dentro de una superficie de trabajo. Una cámara instalada sobre el área genera un mapa preciso del entorno y proporciona en tiempo real la posición de los rovers, los objetos y los puntos de destino.
 
