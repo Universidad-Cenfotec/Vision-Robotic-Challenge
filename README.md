@@ -16,3 +16,8 @@ El desafío consiste en construir la infraestructura de software necesaria para:
 El objetivo es que los rovers encuentren los objetos, los transporten y los coloquen en puntos específicos del espacio.
 
 **¡El equipo que complete el reto con mayor rapidez, precisión y eficiencia será el ganador!**
+
+
+Contenidos:
+
+- [Especificaciones del Robot](https://github.com/Universidad-Cenfotec/Vision-Robotic-Challenge/blob/main/robot.md)
