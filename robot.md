@@ -68,7 +68,7 @@ El robot cuenta con:
 
 ### Procesamiento externo
 
-La universida creará el sistema de visión por computadora y publicará los detalles en este repositorio. Los participantes utilizarán este sistema y este no puede ser modificado.
+La universidad CENFOTEC creará el sistema de visión por computadora y publicará los detalles en este repositorio. Los participantes utilizarán este sistema y este no puede ser modificado.
 
 ### Autonomía
 
