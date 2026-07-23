@@ -2,6 +2,8 @@
 
 # Vision Rover Challenge
 
+> Este repositorio está en desarrollo. Muy pronto encontrarás ejemplos de código, tutoriales, documentación y otros recursos relacionados con el reto. ¡Vuelve pronto!
+
 El **Vision Rover Challenge** es un reto de robótica colaborativa basado en visión por computadora global.
 
 Dos rovers deben comunicarse y coordinar sus movimientos para localizar y transportar objetos dentro de una superficie de trabajo. Una cámara instalada sobre el área genera un mapa preciso del entorno y proporciona en tiempo real la posición de los rovers, los objetos y los puntos de destino.
@@ -16,9 +18,6 @@ El desafío consiste en construir la infraestructura de software necesaria para:
 * Evitar colisiones y completar las tareas de manera eficiente.
 
 El objetivo es que los rovers encuentren los objetos, los transporten y los coloquen en puntos específicos del espacio.
-
-
-> Este repositorio está en desarrollo. Muy pronto encontrarás ejemplos de código, tutoriales, documentación y otros recursos relacionados con el reto. ¡Vuelve pronto!
 
 **¡El equipo que complete el reto con mayor rapidez, precisión y eficiencia será el ganador!**
 
