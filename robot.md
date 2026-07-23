@@ -1,3 +1,5 @@
+<img src="VisionRover.png" alt="Robot del proyecto" width="900">
+
 ## Especificaciones de los robots
 
 Cada equipo participante recibirá **dos robots tipo rover**, construidos a partir de una versión modificada de la plataforma educativa Sumobot. Ambos robots deberán trabajar de manera coordinada para localizar, recolectar y transportar objetos cúbicos dentro del espacio de competencia.
