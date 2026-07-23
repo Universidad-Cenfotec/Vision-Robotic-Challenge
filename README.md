@@ -17,6 +17,9 @@ El desafío consiste en construir la infraestructura de software necesaria para:
 
 El objetivo es que los rovers encuentren los objetos, los transporten y los coloquen en puntos específicos del espacio.
 
+
+> Este repositorio está en desarrollo. Muy pronto encontrarás ejemplos de código, tutoriales, documentación y otros recursos relacionados con el reto. ¡Vuelve pronto!
+
 **¡El equipo que complete el reto con mayor rapidez, precisión y eficiencia será el ganador!**
 
 
